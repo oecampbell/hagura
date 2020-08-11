@@ -21,17 +21,19 @@ layout: compress
     <main>
     <article>
     {{ content }}
-    {% include social-media-links.html %}
     </article>
     </main>
 
 <footer>
     <div class="links">
         <a href="{{site.baseurl}}/about/">About</a>
-        <a href="{{site.baseurl}}/contact/">Contact</a>
         <a class="theme" onclick="theme()">Dark/Light</a>
+        {% include social-media-links.html %}
+        <a href="{{ site.data.social-media.twitter.href }}{{ site.data.social-media.twitter.id }}" title="Twitter"></a>
+        <a href="{{ site.data.social-media.gitghub.href }}{{ site.data.social-media.github.id }}" title="GitHub"></a>
+        <a href="{{ site.data.social-media.linkedin.href }}{{ site.data.social-media.linkedin.id }}" title="Linkedin"></a>
     </div>
-    <p class="copy"><small>Copyrights by {{site.title}} | Developed by <a href="http://webjeda.com">webjeda</a></small></p>
+    <p class="copy"><small>Maintained by {{site.title}} | Theme 'hagura' by <a href="http://webjeda.com">webjeda</a></small></p>
 </footer>
 {% include analytics.html %}
 </body>
