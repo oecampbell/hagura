@@ -1,0 +1,17 @@
+twitter:
+  id: 'oecampbell'
+  href: 'https://twitter.com/oecampbell'
+  title: 'Twitter'
+  fa-icon: 'fa-twitter-square'
+
+github:
+  id: 'oecampbell'
+  href: 'https://github.com/oecampbell'
+  title: 'GitHub'
+  fa-icon: 'fa-github-square
+
+linkedin:
+  id: 'oecampbell'
+  href: 'https://www.linkedin.com/in/oecampbell/'
+  title: 'Linkedin'
+  fa-icon: 'fa-linkedin-square
